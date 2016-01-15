@@ -17,9 +17,9 @@ input {
         <center>
             {{ message }}
             <form action='/' method="get">
-                <input type="submit" name="action" value="关机" />
-                <input type="submit" name="action"  value="重启" />
-                <input type="submit" name="action"  value="重启 MentoHUST" />
+                <input type="submit" name="action" onclick="alert('即将关机')" value="关机" />
+                <input type="submit" name="action" onclick="alert('即将重启')" value="重启" />
+                <input type="submit" name="action" onclick="alert('即将重启 MentoHUST')" value="重启 MentoHUST" />
             </form>
         </center>
     </body>
