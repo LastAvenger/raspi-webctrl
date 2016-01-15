@@ -1,6 +1,9 @@
-# raspi-webctrl
-Simple web control panel for raspberry pi.
+RASPI-WEBCTRL
+
+simple web control panel for raspberry pi.
 
 REQUIRE
-- python >= 3
-- flask
+  - python >= 3
+  - flask
+
+uncomment `cmds` in webctrl.py before use.
