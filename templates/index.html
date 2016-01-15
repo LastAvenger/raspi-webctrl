@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="Content-Language" content="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Control Panel</title>
+        <style type="text/css">
+input {
+    margin-top: 1em;
+    width: 50%;
+    height: 5em;
+}
+        </style>
+    </head>
+    <body>
+        <center>
+            {{ message }}
+            <form action='/' method="get">
+                <input type="submit" name="action" value="关机" />
+                <input type="submit" name="action"  value="重启" />
+                <input type="submit" name="action"  value="重启 MentoHUST" />
+            </form>
+        </center>
+    </body>
+</html>
+
